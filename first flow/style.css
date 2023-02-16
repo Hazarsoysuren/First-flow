@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+.divmain {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.main2 {
+  background-color: rgb(134, 50, 50);
+  flex: 1;
+  height: 100vh;
+  padding: 50px;
+  bottom: 100px;
+  text-align: center;
+}
+
+#welcome-text {
+  font-size: 40px;
+  display: block;
+  background-color: rgb(240, 233, 233);
+}
+
+#menu_btn {
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  color: white;
+  background-color: grey;
+  border: 1px solid rgb(250, 250, 250);
+  border-radius: 5%;
+  font-size: 20px;
+}
+
+.main3 {
+  background-color: rgb(226, 226, 226);
+  flex: 2;
+}
+
+.main4 {
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+}
+
+.profile {
+  color: rgb(12, 10, 10);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: rgb(240, 233, 233);
+}
+
+.post {
+  background-color: lightblue;
+  width: 80%;
+  margin: auto;
+}
+
+#profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#name-tag {
+  font-size: 2em;
+}
+#user-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#post-username {
+  font-size: 50px;
+}
+
+/* Här börjar inläggen*/
+.user-post {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 8px 18px rgba(61, 61, 61, 0.274);
+}
+
+.toppart {
+  display: flex;
+}
+.post-user-profile-img {
+  padding: 10px;
+}
+
+#post-profile-img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.post-display {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#post-username {
+  font-size: 1.2em;
+  display: block;
+  font-weight: 700;
+}
+
+#post-img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.botpart {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #93a0aa;
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Här börjar raden*/
+.img-profile {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+}
+.user-name {
+}
