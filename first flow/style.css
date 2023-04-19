@@ -1,29 +1,199 @@
 body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-
+  background-color: #e6e6e6;
   display: flex;
+  gap: 15px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.middle {
+  width: 60vw;
+}
 .main {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1000px;
-  height: 100vh;
   justify-content: center;
   position: relative;
-  background-color: black;
-  margin-top: 150px;
-  border-radius: 10px;
+  background-color: white;
+  border-radius: 20px;
+  display: block;
 }
-.top-part {
-  height: 40vh;
+
+/* profile starts here */
+.background-picture {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.background-picture img {
   width: 100%;
-  position: absolute;
+  height: 50vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-.background {
-  position: absolute;
-  height: auto;
+
+.profile {
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  flex-direction: row;
+  justify-items: center;
+  background-color: rgb(255, 255, 255);
+  overflow: visible;
+}
+.profile-img {
+  border-radius: 10%;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+#gt-profile {
+  border-radius: 100px;
+  width: 8rem;
+  height: 8rem;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 7px;
+  left: 20%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar {
+  font-size: x-large;
+  display: flex;
+  top: 25%;
+  gap: 50px;
+  margin-left: 50px;
+  height: 5vh;
+}
+/* ends here */
+.handledare {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 2%;
+  display: block;
+}
+.handledare-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  border-radius: 100px;
+}
+
+#cat-img {
+  border-radius: 1000px;
+}
+
+.main2 {
+  display: flex;
+}
+
+.handledare-info {
+  background-color: whitesmoke;
+  text-align: left;
+  height: 20vh;
+  border-radius: 20px;
+  display: block;
+  margin-top: 3%;
+}
+.info-text {
+  display: flex;
+  flex-direction: column;
+  padding: 8%;
+  font-size: 20px;
+}
+.left {
+  display: flex;
+  flex-basis: 30%;
+  flex-direction: column;
+}
+.right {
+  display: block;
+  width: 70%;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+.posts {
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+.post-profile {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.profile-sec {
+  flex-direction: row;
+}
+.post-profile img {
+  border-radius: 1000px;
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+
+.hazar-soysuren {
+  display: block;
+}
+.Year {
+  display: block;
+  font-size: larger;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.Button-one {
+  background-color: #4caf50; /* Set the background color */
+  border: none; /* Remove the border */
+  color: white; /* Set the text color */
+  padding: 12px 24px; /* Add padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Set display property */
+  font-size: 16px; /* Set font size */
+  margin: 4px 2px; /* Add margin */
+  cursor: pointer; /* Add cursor pointer */
+  border-radius: 4px; /* Add rounded corners */
+}
+.button-two {
+  background-color: #cf1515; /* Set the background color */
+  border: none; /* Remove the border */
+  color: white; /* Set the text color */
+  padding: 12px 24px; /* Add padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Set display property */
+  font-size: 16px; /* Set font size */
+  margin: 4px 2px; /* Add margin */
+  cursor: pointer; /* Add cursor pointer */
+  border-radius: 4px; /* Add rounded corners */
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.howlongago {
+  display: flex;
+  justify-content: flex-end;
 }
