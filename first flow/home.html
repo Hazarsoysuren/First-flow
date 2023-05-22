@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>hello world</title>
+    <title>GTech konsult</title>
   </head>
   <body>
     <div class="main middle">
@@ -41,102 +42,161 @@
           <div class="handledare-img">
             <img id="cat-img" src="bilder\t1.png" alt="" />
           </div>
-          <div class="">
-            <h2>Välkommen tillbaka</h2>
-            <h1>Anders</h1>
-          </div>
-        </div>
-        <div class="handledare-info">
-          <div class="info-text">
-            <span>mail@mail.com</span>
-            <span>070-6225115</span>
+          <div class="Apl-login">
+            <h2 class="onetst">Välkommen tillbaka</h2>
+            <h1>Hans</h1>
           </div>
         </div>
       </div>
       <div class="right">
-        <div class="posts">
-          <div class="post-profile">
-            <div class="profile-sec">
-              <img src="bilder\indian-man.jpg" alt="" />
-              <div>
-                <span class="hazar-soysuren"> Hazar Soysuren</span>
-                <span class="Year"> EE20</span>
-              </div>
-            </div>
-          </div>
-
-          <p>
-            PostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPost
-          </p>
-          <div class="buttons">
-            <div class="Accept">
-              <button class="Button-one">Godkänn</button>
-              <button class="button-two">Neka</button>
-            </div>
-            <div class="time">
-              <span>00:00</span>
-              <span>00:00</span>
-            </div>
-          </div>
-        </div>
+        
 
         <div class="posts">
           <div class="post-profile">
             <div class="profile-sec">
-              <img src="bilder\indian-man.jpg" alt="" />
-              <div>
-                <span class="hazar-soysuren"> Hazar Soysuren</span>
-                <span class="Year"> EE20</span>
+              <div class="profile-post-img">
+                <img src="bilder\indian-man.jpg" alt="" />
+              </div>
+              <div class="Fullname">
+                <span class="hazar-soysuren" id="Elevname">Hazar Soysuren</span>
+                <span class="Year">EE20</span>
+              </div>
+              <div class="post-info">
+                <div class="ago">
+                  <span>3 Timmar sedan</span>
+                </div>
               </div>
             </div>
-
-            <div class="time-count">
-              <span>1 hour ago</span>
-            </div>
           </div>
-
-          <p>
-            PostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPost
+        
+          <p class="post-post">
+            Under min första vecka på praktiken fick jag möjlighet att assistera vid ett antal operationer, vilket var en fantastisk upplevelse. Jag fick se hur man bedövar djur, hur man gör en operation och hur man tar hand om djur som precis har genomgått en operation.
           </p>
           <div class="buttons">
             <div class="Accept">
-              <button class="Button-one">Godkänn</button>
-              <button class="button-two">Neka</button>
+              <button onclick="confirmPost(this)" class="Button-one">Godkänn</button>
+              <img class="check-icon" style="display: none;" src="bilder\check.png" alt="" height="30px">
+              <span class="text" style="display: none;">Godkänd</span>
+              <button onclick="denyPost(this)" class="button-two">Neka</button>
+              <img class="cross-icon" style="display: none;" src="bilder/deny.png" alt="" height="30px">
+              <span class="text" style="display: none;">Nekad</span>
             </div>
             <div class="time">
-              <span>00:00</span>
-              <span>00:00</span>
+              <span class="timecount">08:30</span>&nbsp;<span class="timecount">15:00</span>
             </div>
           </div>
         </div>
+        
+        <div class="posts">
+          <div class="post-profile">
+            <div class="profile-sec">
+              <div class="profile-post-img">
+                <img src="bilder\indian-man.jpg" alt="" />
+              </div>
+              <div class="Fullname">
+                <span class="hazar-soysuren" id="Elevname">Hazar Soysuren</span>
+                <span class="Year">EE20</span>
+              </div>
+              <div class="post-info">
+                <div class="ago">
+                  <span>3 Timmar sedan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <p class="post-post">
+            Under min första vecka på praktiken fick jag möjlighet att assistera vid ett antal operationer, vilket var en fantastisk upplevelse. Jag fick se hur man bedövar djur, hur man gör en operation och hur man tar hand om djur som precis har genomgått en operation.
+          </p>
+          <div class="buttons">
+            <div class="Accept">
+              <button onclick="confirmPost(this)" class="Button-one">Godkänn</button>
+              <img class="check-icon" style="display: none;" src="bilder\check.png" alt="" height="30px">
+              <p class="text" style="display: none;">Godkänd</p>
+              <button onclick="denyPost(this)" class="button-two">Neka</button>
+              <img class="cross-icon" style="display: none;" src="bilder/deny.png" alt="" height="30px">
+              <p class="text" style="display: none;">Nekad</p>
+            </div>
+            <div class="time">
+              <span class="timecount">08:30</span>&nbsp;<span class="timecount">15:00</span>
+            </div>
+          </div>
+        </div>
+
+<div class="Tidigare">
+          <div class="tidigare-text">
+           <span>Tidigare inlägg</span>
+          </div>
+        </div>
+        
+          <!-- Tidigare posts -->
 
         <div class="posts">
           <div class="post-profile">
-            <div>
+            <div class="profile-sec">
+              <div class="profile-post-img">
               <img src="bilder\indian-man.jpg" alt="" />
-            </div>
-
-            <div>
-              <span class="hazar-soysuren"> Hazar Soysuren</span>
-              <span class="Year"> EE20</span>
+              </div>
+              <div class="Fullname">
+                <span class="hazar-soysuren" id="Elevname"> Hazar Soysuren</span>
+                <span class="Year"> EE20</span>
+              </div>
+              <div class="post-info">
+                
+                <div class="ago">
+                 <span>3 Timmar sedan</span>
+                </div>
+              </div>
             </div>
           </div>
 
-          <p>
-            PostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPostPost
+          <p class="post-post">
+            Under min första vecka på praktiken fick jag möjlighet att assistera vid ett antal operationer, vilket var en fantastisk upplevelse. Jag fick se hur man bedövar djur, hur man gör en operation och hur man tar hand om djur som precis har genomgått en operation.
           </p>
           <div class="buttons">
             <div class="Accept">
-              <button class="Button-one">Godkänn</button>
-              <button class="button-two">Neka</button>
+              <img src="bilder\check.png" alt="">
+              <span class=""> Godkänd</span>
             </div>
             <div class="time">
-              <span>00:00</span>
-              <span>00:00</span>
+              <span class="timecount">08:30</span>&nbsp;<span class="timecount">15:00</span>
             </div>
           </div>
         </div>
+
+        
       </div>
     </div>
+        
+  <script>
+  function confirmPost(button) {
+  var parentDiv = button.parentNode;
+  var checkIcon = parentDiv.querySelector(".check-icon");
+  var text = parentDiv.querySelector(".text");
+
+  button.style.display = "none";
+  parentDiv.querySelector(".button-two").style.display = "none";
+  checkIcon.src = "bilder/check.png"; // Replace with the correct file path to the check icon image
+  checkIcon.style.display = "inline";
+  text.style.display = "inline";
+}
+
+function denyPost(button) {
+  var parentDiv = button.parentNode;
+  var crossIcon = parentDiv.querySelector(".cross-icon");
+  var text = parentDiv.querySelector(".text");
+
+  button.style.display = "none";
+  parentDiv.querySelector(".Button-one").style.display = "none";
+  parentDiv.querySelector(".check-icon").style.display = "none";
+  parentDiv.querySelector(".text").style.display = "none";
+  checkIcon.src = "bilder/deny.png"; // Replace with the correct file path to the check icon image
+  crossIcon.style.display = "inline";
+  text.style.display = "inline";
+}
+
+    </script>
+ <script src="script.js"></script>
+  
   </body>
 </html>
